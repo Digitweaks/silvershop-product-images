@@ -1,5 +1,5 @@
 # silvershop-product-images
-A SilverShop module to add multiple product images that you can sort in the admin panel
+A simple SilverShop module to add multiple product images that you can sort in the admin panel.
 
 ## Installation
 
@@ -17,4 +17,4 @@ Add the ProductImages template to your Product template where you need the image
 
 ## To Do
 
-Include the jQuery 
+Separate the jQuery from the template
