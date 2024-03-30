@@ -1,0 +1,7 @@
+---
+Name: silvershop-productimages
+After: core/config#shopconfig
+---
+SilverShop\Page\Product:
+  extensions:
+    - Digitweaks\SilverShopProductImages\ProductImages
