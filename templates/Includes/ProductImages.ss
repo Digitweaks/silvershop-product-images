@@ -7,12 +7,24 @@
 </div>
 
 <% if $SortedAdditionalImages.Count %>
-	<div id="ProductImageGallery">
+	<div id="ProductImageGallery" style="margin-top: 0.5em; margin-bottom: 1em;"> 
 		<% if $Image %>
-			<a href="javascript:;" data-image="$Image.Pad(275,275).URL" data-zoom-image="$Image.LargeImage.URL" class="active"><img src="$Image.CMSThumbnail.URL" /></a>
+		<div class="thumb-image-gallery-product">
+			<a href="#" class="image-thumb" data-image="$Image.FillMax(450,450).URL" class="active"><img class="border-radius img-fluid" src="$Image.FillMax(200,200).URL" style="border: 1px solid white;" /></a>
+		</div>
 		<% end_if %>
 		<% loop $SortedAdditionalImages %>
-			<a href="javascript:;" data-image="$Pad(275,275).URL" data-zoom-image="$LargeImage.URL"><img src="$CMSThumbnail.URL" /></a>
+		<div class="thumb-image-gallery-product">
+			<a href="#" class="image-thumb" data-image="$FillMax(450,450).URL"><img class="border-radius img-fluid" src="$FillMax(200,200).URL" style="border: 1px solid white;"/></a>
+		</div>
 		<% end_loop %>
-	</div>
+	</div> 
 <% end_if %>
+
+<script>
+jQuery('.image-thumb').click(function(event) {
+    event.preventDefault();
+    var imageUrl = jQuery(this).data('image');
+    jQuery('#ProductImageWrapper img').attr('src', imageUrl);
+});
+</script>
