@@ -10,7 +10,7 @@ composer require digitweaks/silvershop-product-images
 
 ## Template
 
-Add the ProductImages template to your Product template where you need the images to appear,
+Add the ProductImages template to your Product template where you need the images to appear.
 Adapt the CSS if you don't use Bootstrap classes.
 
 ```
