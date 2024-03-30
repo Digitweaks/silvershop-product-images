@@ -1,6 +1,5 @@
 # silvershop-product-images
-A simple SilverShop module to add multiple product images that you can sort in the admin panel.
-Compatible with SilverShop 4 
+A simple SilverShop 4 compatible module to add multiple product images that you can sort in the admin panel.
 
 ## Installation
 
