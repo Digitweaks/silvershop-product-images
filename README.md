@@ -14,7 +14,7 @@ Add the ProductImages template to your Product template where you need the image
 Adapt the CSS if you don't use Bootstrap classes.
 
 ```
-    <% include ShippingEstimator %>
+    <% include ProductImages %>
 ```
 
 ## To Do
