@@ -34,7 +34,7 @@ class ProductImages extends DataExtension
             ),
             LiteralField::create(
                 'additionalimagesinstructions',
-                '<p>' . _t(__CLASS__ . '.Instructions', 'You can change the order of the Additional Images by clicking and dragging on the image thumbnail.') . '</p>'
+                '<p>' . _t(__CLASS__ . '.Instructions', 'Change the order of the images by dragging the thumbnail.') . '</p>'
             )
         ];
         if ($fields->hasTabset()) {
