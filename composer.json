@@ -18,8 +18,5 @@
             "dev-main": "4.x-dev"
         }
     },
-    "config": {
-        "vendor-dir": "vendors"
-    }
     "license": "MIT"
 } 
