@@ -1,8 +1,8 @@
 {
     "name": "digitweaks/silvershop-product-images",
-    "type": "silverstripe-vendormodule",
     "description": "A SilverShop module to add multiple product images",
     "version": "4.0.0", 
+    "type": "silverstripe-vendormodule",
     "require": {
         "silvershop/core": "^4.0",
         "bummzack/sortablefile": "^2.1", 
