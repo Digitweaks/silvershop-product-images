@@ -4,7 +4,6 @@
     "version": "4.0.0", 
     "type": "silverstripe-vendormodule",
     "require": {
-        "silverstripe/vendor-plugin": "^2.0",
         "silvershop/core": "^4.0",
         "bummzack/sortablefile": "^2.1"
     },
@@ -17,11 +16,6 @@
         "branch-alias": {
             "dev-main": "4.x-dev"
         }
-    },
-    "config": {
-    "allow-plugins": {
-      "composer/installers": true,
-      "silverstripe/vendor-plugin": true
     },
     "license": "MIT"
 } 
