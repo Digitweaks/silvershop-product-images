@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DigiTweaks\\SilverShopProductImages\\": "vendor/digitweaks/silvershop-product-images/code/DigiTweaks/SilverShopProductImages"
+            "DigiTweaks\\SilverShopProductImages\\": "src/"
         }
     },
     "extra": {
