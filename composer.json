@@ -19,7 +19,7 @@
         }
     },
     "config": {
-        "vendor-dir": "vendors/"
+        "vendor-dir": "vendors"
     }
     "license": "MIT"
 } 
