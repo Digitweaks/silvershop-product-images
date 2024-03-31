@@ -1,11 +1,11 @@
 {
     "name": "digitweaks/silvershop-product-images",
-    "description": "A SilverShop module to add multiple product images",
-    "version": "4.0.0", 
     "type": "silverstripe-vendormodule",
+    "description": "A SilverShop module to add multiple product images",
     "require": {
         "silvershop/core": "^4",
-        "bummzack/sortablefile": "^2"
+        "bummzack/sortablefile": "^2", 
+        "silverstripe/vendor-plugin": "^2"
     },
     "autoload": {
         "psr-4": {
@@ -14,8 +14,13 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "4.x-dev"
+            "dev-master": "4.*-dev"
         }
     },
-    "license": "MIT"
-} 
+    "license": "MIT",
+    "config": {
+        "allow-plugins": {
+            "silverstripe/recipe-plugin": true
+        }
+    }
+}
