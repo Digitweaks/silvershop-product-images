@@ -2,25 +2,21 @@
     "name": "digitweaks/silvershop-product-images",
     "type": "silverstripe-vendormodule",
     "description": "A SilverShop module to add multiple product images",
-    "type": "silverstripe-module",
-    "version": "4.0", 
+    "version": "4.0.0", 
     "require": {
         "silvershop/core": "^4.0",
-        "bummzack/sortablefile": "^2.1@stable", 
-        "silverstripe/vendor-plugin": "^2"
+        "bummzack/sortablefile": "^2.1", 
+        "silverstripe/vendor-plugin": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "DigiTweaks\\SilverShopProductImages\\": "vendor/digitweaks/silvershop-product-images/code/DigiTweaks/SilverShopProductImages"
+            "DigiTweaks\\SilverShopProductImages\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.*-dev"
-        },
-        "expose": [
-            "client"
-        ]
+            "dev-master": "4.x-dev"
+        }
     },
     "license": "MIT"
 } 
