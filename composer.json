@@ -19,10 +19,7 @@
         }
     },
     "config": {
-    "allow-plugins": {
-      "composer/installers": true,
-      "php-http/discovery": true,
-      "silverstripe/vendor-plugin": true
+        "vendor-dir": "vendors/"
     }
     "license": "MIT"
 } 
