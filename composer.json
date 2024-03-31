@@ -13,10 +13,5 @@
             "DigiTweaks\\SilverShopProductImages\\": "src/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "main": "4.x-dev"
-        }
-    },
     "license": "MIT"
 } 
