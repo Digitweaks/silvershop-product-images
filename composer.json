@@ -4,8 +4,8 @@
     "version": "4.0.0", 
     "type": "silverstripe-vendormodule",
     "require": {
-        "silvershop/core": "^4.0",
-        "bummzack/sortablefile": "^2.1"
+        "silvershop/core": "^4",
+        "bummzack/sortablefile": "^2"
     },
     "autoload": {
         "psr-4": {
